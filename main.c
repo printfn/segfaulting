@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     } else {
         printf("Triggering segfault now...\n");
         int *foo = 0;
-        printf("Value: %i", *foo);
+        printf("Value: %i\n", *foo);
     }
 
     printf("After segfault\n");
